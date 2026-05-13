@@ -1,0 +1,44 @@
+location:
+  city: "Copenhagen"
+  radius_km: 25
+
+categories:
+  - furniture
+  - electronics
+  - free
+
+price_filter:
+  min: 0
+  max: 0
+
+include_keywords:
+  - sofa
+  - table
+  - chair
+
+exclude_keywords:
+  - broken
+  - damaged
+
+auto_message: true
+
+messages:
+  - "Hi! Is this still available?"
+  - "Hello! I can pick this up today."
+  - "Hey! I'm interested and nearby."
+  - "Hi, I can come pick this up quickly if it's available."
+  - "Hey! I'm nearby and could collect this today."
+
+notifications:
+  telegram: false
+  discord: false
+  console: true
+
+telegram:
+  bot_token: ""
+  chat_id: ""
+
+discord:
+  webhook_url: ""
+
+scan_interval_seconds: 30
